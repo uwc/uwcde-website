@@ -10,12 +10,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'category-post' ); ?>>
-	<?php if ( get_field( 'feed_image' ) ) : 
+	<?php if ( get_field( 'feed_image' ) ) :
 		$image = get_field( 'feed_image' );
 		$size = 'medium';
-		$url = $image[ 'sizes' ][ $size ];
+		$url = $image['sizes'][ $size ];
 		?>
-		<a class="category-image" style="background-image: url(<?php echo $url; ?>)" href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark"></a>
+		<a class="category-image" style="background-image: url(<?php echo esc_url( $url ); ?>)" href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark"></a>
 	<?php elseif ( has_post_thumbnail() ) : ?>
 		<a class="category-image" style="background-image: url(<?php the_post_thumbnail_url( 'medium' ); ?>)" href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark"></a>
 	<?php endif; ?>
