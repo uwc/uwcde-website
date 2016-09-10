@@ -34,6 +34,22 @@ module.exports = {
     }
   },
 
+  images: {
+    build: { // Copies images from `src` to `build`; does not optimize
+      src: src+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)'
+    , dest: build
+    }
+  , dist: {
+      src: [dist+'**/*(*.png|*.jpg|*.jpeg|*.gif|*.svg)', '!'+dist+'screenshot.png'] // The source is actually `dist` since we are minifying images in place
+    , imagemin: {
+        optimizationLevel: 7
+      , progressive: true
+      , interlaced: true
+      }
+    , dest: dist
+    }
+  },
+
   styles: {
     build: {
       src: src+'scss/**/*.scss'

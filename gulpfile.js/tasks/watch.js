@@ -9,5 +9,6 @@ var gulp        = require('gulp')
 // Task chain: build -> browsersync -> watch
 gulp.task('watch', ['browsersync'], function() {
   gulp.watch(config.src.styles, ['styles']);
+  gulp.watch(config.src.images, ['images']);
   gulp.watch(config.src.theme, ['theme']);
 });

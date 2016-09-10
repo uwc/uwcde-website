@@ -9,4 +9,4 @@ gulp.task('default', ['watch']);
 gulp.task('setup', ['utils-normalize']);
 
 // Build a working copy of the theme
-gulp.task('build', ['styles', 'theme']);
+gulp.task('build', ['images', 'styles', 'theme']);
