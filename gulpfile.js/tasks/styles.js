@@ -11,9 +11,7 @@ var gulp          = require('gulp')
 gulp.task('styles', function() {
   return gulp.src(config.build.src)
   .pipe(plumber())
-  .pipe(plugins.sourcemaps.init()) // Note that sourcemaps need to be initialized with libsass
   .pipe(plugins.sass(config.libsass))
   .pipe(plugins.cssnano(config.cssnano))
-  .pipe(plugins.sourcemaps.write('./'))
   .pipe(gulp.dest(config.build.dest));
 });
