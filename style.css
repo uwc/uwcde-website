@@ -1,16 +1,16 @@
+@charset "UTF-8"
 /*!
-Theme Name: metadata(theme-name)
-Theme URI: metadata(theme-uri)
-Author: metadata(theme-author)
-Author URI: metadata(theme-author-uri)
-Description: metadata(theme-description)
-Template: metadata(theme-template)
-Version: metadata(theme-version)
-License: metadata(theme-license)
-License URI: metadata(theme-license-uri)
-Tags: metadata(theme-tags)
-Text Domain: metadata(theme-text-domain)
-GitHub Theme URI: metadata(github-theme-uri)
-GitHub Branch: metadata(github-branch)
+Theme Name: UWCde Website
+Theme URI: https://github.com/uwc/uwcde-website
+Author: Connor Bär
+Author URI: http://connorbaer.io
+Description: An open-source WordPress child theme for UWC Germany.
+Template: uwc-website/build
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: custom-menu, editor-style, featured-image-header, featured-images, post-formats, sticky-post, theme-options, education, translation-ready
+Text Domain: uwcde-website
+GitHub Theme URI: https://github.com/uwc/uwcde-website
+GitHub Branch: master
 */
-/*# sourceMappingURL=style.css.map */
