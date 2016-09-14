@@ -11,11 +11,7 @@ Requires at least: WordPress 4.4
 
 Tested up to: WordPress 4.6.1
 
-<<<<<<< HEAD:src/readme.md
 Version: 1.1.0
-=======
-Version: 1.0.1
->>>>>>> master:readme.md
 
 License: [MIT](#copyright)
 
