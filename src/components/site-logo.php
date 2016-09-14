@@ -1,6 +1,6 @@
 <?php
 /**
- * SVG code to output the logo. 
+ * SVG code to output the logo.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
