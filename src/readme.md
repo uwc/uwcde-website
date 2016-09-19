@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/uwc/uwcde-website.svg?branch=beta)](https://travis-ci.org/uwc/uwcde-website)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a40f2e09aa8d4359ac6e0042a33bb810)](https://www.codacy.com/app/connor_baer/uwcde-website)
 
 # An open-source WordPress child theme for UWC Germany.
 
