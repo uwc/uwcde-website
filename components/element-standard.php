@@ -4,16 +4,14 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package UWC_Website
+ * @package UWCde_Website
  */
 
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'category-post' ); ?>>
+?><article id="post-<?php the_ID(); ?>" <?php post_class( 'category-post' ); ?>>
 	<?php if ( get_field( 'feed_image' ) ) :
 		$image = get_field( 'feed_image' );
-		$size = 'medium';
-		$url = $image['sizes'][ $size ];
+		$size  = 'medium';
+		$url   = $image['sizes'][ $size ];
 		?>
 		<a class="category-image" style="background-image: url(<?php echo esc_url( $url ); ?>)" href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark"></a>
 	<?php elseif ( has_post_thumbnail() ) : ?>
@@ -32,7 +30,7 @@
 		<?php if ( $tags = get_the_tags() ) {
 			echo '<p class="category-tags">';
 			foreach ( $tags as $tag ) {
-				$sep = ( end( $tags ) === $tag ) ? '' : ', ';
+				$sep = (end( $tags ) === $tag) ? '' : ', ';
 				echo '<a href="' . esc_url( get_term_link( $tag, $tag->taxonomy ) ) . '">#' . esc_html( $tag->name ) . '</a>' . esc_html( $sep );
 			}
 			echo '</p>';
