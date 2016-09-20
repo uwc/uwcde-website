@@ -1,13 +1,11 @@
 {
   "name": "uwcde-website",
   "homepage": "https://github.com/uwc/uwcde-website",
-  "authors": [
-    {
-      "name": "Connor Bär",
-      "email": "hello@connorbaer.io",
-      "homepage": "http://connorbaer.io"
-    }
-  ],
+  "authors": [{
+    "name": "Connor Bär",
+    "email": "hello@connorbaer.io",
+    "homepage": "http://connorbaer.io"
+  }],
   "keywords": [
     "wordpress",
     "wordpress-theme",
