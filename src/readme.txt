@@ -7,10 +7,10 @@
 
 # Contents
 
-- [Overview](#Overview)
-- [Installation](#Installation)
-- [Contribute](#Contribute)
-- [Copyright](#Copyright)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Contribute](#contribute)
+- [Copyright](#copyright)
 
 
 # Overview
