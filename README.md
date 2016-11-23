@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/uwc/uwcde-website.svg?branch=beta)](https://travis-ci.org/uwc/uwcde-website) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a40f2e09aa8d4359ac6e0042a33bb810)](https://www.codacy.com/app/connor_baer/uwcde-website)
 
-# WordPress Theme for [UWC Germany](https://uwc.de)
+# UWCde Website
+
+A WordPress theme for [UWC Germany](https://uwc.de)
+
+**This theme is depreciated and no longer maintained. Use the [UWC WordPress](https://github.com/uwc/uwc-wordpress) theme instead.**
 
 > This is a child theme of [UWC Website](https://github.com/uwc/uwc-website).
 
@@ -21,7 +25,7 @@ Requires at least: WordPress 4.4
 
 Tested up to: WordPress 4.6.1
 
-Version: 1.3.2
+Version: 1.3.3
 
 License: [GPL-3.0](#Copyright)
 
@@ -47,6 +51,8 @@ Interested in contributing to the development of this theme? I look forward to y
 
 # Copyright
 
-Copyright (c) 2016 Connor Bär
+UWCde Website Theme, Copyright 2016 [Made by Connor](http://madebyconnor.io). UWCde Website is distributed under the terms of the [GNU GPL-3.0 License](https://github.com/uwc/uwcde-website/blob/master/LICENSE.md).
 
-This theme is released under the [GPL-3.0 License](https://github.com/uwc/uwcde-website/blob/master/LICENSE.md).
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
