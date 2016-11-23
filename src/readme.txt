@@ -1,9 +1,19 @@
-[![Build Status](https://travis-ci.org/uwc/uwcde-website.svg?branch=beta)](https://travis-ci.org/uwc/uwcde-website)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a40f2e09aa8d4359ac6e0042a33bb810)](https://www.codacy.com/app/connor_baer/uwcde-website)
+[![Build Status](https://travis-ci.org/uwc/uwcde-website.svg?branch=beta)](https://travis-ci.org/uwc/uwcde-website) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a40f2e09aa8d4359ac6e0042a33bb810)](https://www.codacy.com/app/connor_baer/uwcde-website)
 
-# An open-source WordPress child theme for UWC Germany.
+# WordPress Theme for [UWC Germany](https://uwc.de)
 
-> Please [request permission](mailto:uwc@connorbaer.io) before use.
+> This is a child theme of [UWC Website](https://github.com/uwc/uwc-website).
+
+
+# Contents
+
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Contribute](#Contribute)
+- [Copyright](#Copyright)
+
+
+# Overview
 
 Contributors: [Connor Bär](http://connorbaer.io)
 
@@ -11,38 +21,32 @@ Requires at least: WordPress 4.4
 
 Tested up to: WordPress 4.6.1
 
-Version: 1.3.0
+Version: 1.3.2
 
-License: [MIT](#copyright)
+License: [GPL-3.0](#Copyright)
 
 Tags: custom-menu, editor-style, featured-image-header, featured-images, post-formats, sticky-post, theme-options, education, translation-ready
 
-## Description
 
-### This theme is still under development and NOT intended for use yet.
+# Installation
 
-If you are interested in contributing to the development, [drop me a line](mailto:uwc@connorbaer.io).
+*This theme can only be installed on self-hosted WordPress installations and not on sites that are hosted on wordpress.com.* I provide managed hosting for UWC websites. Drop me a line at [hello@madebyconnor.io](mailto:hello@madebyconnor.io) if you're interested.
 
-
-## Installation
-
-> This theme can only be installed on self-hosted WordPress installations and not on sites that are hosted on wordpress.com.
-
-1. UWC Website is not listed publicly on Wordpress.org. Therefore you have to install the [GitHub Updater](https://github.com/afragen/github-updater) plugin to install the theme and receive future updates. Follow the instructions in the [readme file](https://github.com/afragen/github-updater#upload) to install the plugin, then come back here.
+1. UWCde Website is not listed publicly on wordpress.org. Therefore you have to install the [GitHub Updater](https://github.com/afragen/github-updater) plugin to install the theme and receive future updates. Follow the instructions in the [readme file](https://github.com/afragen/github-updater#upload) to install the plugin, then come back here.
 2. In WordPress, navigate to 'Settings' > 'GitHub Updater', then select 'Install Theme' from the tabs at the top.
 3. Paste the url `https://github.com/uwc/uwcde-website` into the field 'Theme URI'. You can leave the other fields as they are and click on the 'Install Theme' button.
 4. Click on the 'Activate' button to use your new theme right away.
-5. Go to https:// for a guide on how to customize this theme.
+5. Go to the [UWC Documentation](https://docs.uwc.io) for a guide on how to use this theme.
 6. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 
-## Copyright
+# Contribute
 
-The MIT License (MIT)
+Interested in contributing to the development of this theme? I look forward to your pull requests und issues. Or drop me a line at [hello@connorbaer.io](mailto:hello@connorbaer.io).
+
+
+# Copyright
+
 Copyright (c) 2016 Connor Bär
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This theme is released under the [GPL-3.0 License](https://github.com/uwc/uwcde-website/blob/master/LICENSE.md).
