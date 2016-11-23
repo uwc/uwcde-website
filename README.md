@@ -7,15 +7,15 @@
 
 # Contents
 
-- [Overview](#overview)
-- [Installation](#installation)
-- [Contribute](#contribute)
-- [Copyright](#copyright)
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Contribute](#Contribute)
+- [Copyright](#Copyright)
 
 
 # Overview
 
-Contributors: [Connor Bär](http://connorbaer.io)
+Contributors: [Connor Bär](http://madebyconnor.de)
 
 Requires at least: WordPress 4.4
 

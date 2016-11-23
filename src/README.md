@@ -15,7 +15,7 @@
 
 # Overview
 
-Contributors: [Connor Bär](http://connorbaer.io)
+Contributors: [Connor Bär](http://madebyconnor.de)
 
 Requires at least: WordPress 4.4
 
