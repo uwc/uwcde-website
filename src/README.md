@@ -25,7 +25,7 @@ Requires at least: WordPress 4.4
 
 Tested up to: WordPress 4.6.1
 
-Version: 1.3.3
+Version: 1.3.4
 
 License: [GPL-3.0](#Copyright)
 
